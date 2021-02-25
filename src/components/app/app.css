@@ -1,18 +1,22 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
+.app .app-header {
   background-color: #282c34;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 10vh;
 }
 
-.App p {
+.app p {
   font-size: 4vh;
+  padding-left: 10vh;
+}
+
+.app .editor-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 1em;
+  border: 1px solid #ccc;
 }
