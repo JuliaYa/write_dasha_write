@@ -1,0 +1,15 @@
+.editor-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.editor-page aside {
+  width: 18%;
+  padding: 2vh;
+}
+
+.editor-container {
+  padding: 1em;
+  border: 1px solid #ccc;
+  width: 80%;
+}

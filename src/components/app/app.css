@@ -14,9 +14,11 @@
   padding-left: 10vh;
 }
 
-.app .editor-container {
-  margin: 0 auto;
-  width: 80%;
-  padding: 1em;
-  border: 1px solid #ccc;
+.app header a,
+.app header a:visited,
+.app header a:active,
+.app header a:hover {
+  color: white;
+  text-decoration: none;
 }
+
