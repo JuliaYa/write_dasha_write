@@ -1,12 +1,7 @@
-.app .app-header {
-  background-color: #282c34;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app a.sign-in {
+  display: block;
+  float: right;
   color: white;
-  padding-left: 10vh;
 }
 
 .app p {

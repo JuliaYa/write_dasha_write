@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import SidePanel from '../side-panel';
-import Editor from '../editor';
+import SidePanel from '../../side-panel';
+import Editor from '../../editor';
 
 import './editor-page.css';
 

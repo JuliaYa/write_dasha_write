@@ -6,7 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
-import EditorPage from '../pages/editor-page';
+import EditorPage from '../pages/editor/editor-page';
+import AuthorPage from '../pages/author';
 
 import './app.css';
 
@@ -14,19 +15,23 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <header className="app-header">
-          <h1><Link to="/">Write Dasha Write!</Link></h1>
-        </header>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a className="navbar-brand" href="/">WriteDashaWrite</a>
+
+          <a href="/author" className="sign-in my-2 my-lg-0">SignIn</a>
+        </nav>
         <div className="content">
           <Switch>
             <Route exact path="/">
-              <p><Link to="/editor-page">Try our editor right now!</Link></p>
+              <h2 ><Link to="/editor">Try our editor right now!</Link></h2>
             </Route>
-            <Route path="/editor-page">
+            <Route path="/editor">
               <EditorPage />
             </Route>
+            <Route path="/author">
+              <AuthorPage />
+            </Route>
           </Switch>
-          {/* <EditorPage /> */}
         </div>
       </div>
     </Router>
